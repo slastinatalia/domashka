@@ -1,0 +1,207 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+}
+
+.header {
+    height: 20%;
+}
+
+
+.logo {
+
+    position: absolute;
+    top:0;
+    left: 10px;
+    padding: 5px;
+    margin: 10px;
+
+}
+
+.maket {
+   
+}
+.maket_grid {
+    width: 1240px;
+    height: 760px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 30px;
+    
+    }
+
+.maket_grid-item {
+width: 365px;
+display:flex;
+flex-direction: column;
+flex-wrap: wrap;
+row-gap: 10px;
+}
+
+.maket_grid-item-1 {
+    width: 365px;
+display:flex;
+flex-direction: column;
+margin: -10px;
+row-gap: 10px;
+background-color: #EC615B;
+text-align: left;
+color: antiquewhite;
+margin:0;
+
+
+}
+
+.maket_foto {
+    width:80%;
+}
+.text-h3 {
+    align-items: center;
+}
+.maket_h3 {
+    align-items: center;
+}
+.text-h4 {
+    align-items: center;
+}
+.maket_h4 {
+}
+.maket_grid-item_item1 {
+    border: none;
+         background-color: blue;
+    color: antiquewhite;
+    text-align: left;
+    font-family: "Intro";
+    
+   
+}
+
+.item {
+}
+
+.button {
+    background-color: blue;
+    position: absolute;
+    top:0;
+    right: 100px;
+    padding: 5px;
+    margin: 10px;
+    
+}
+
+.container{
+    height: 100vh;
+    position: relative;
+
+}
+
+header{
+    flex-basis:5%;
+}
+.logo {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+.button {
+}
+.gl-box {
+    flex-basis: 70%;
+}
+
+.title {
+   position: absolute;
+    font-size: 2em;
+    font-family: "Intro";
+    font-weight: 600;
+             width: 542px;
+            height: 250px;
+            left: 10px;
+            top: 100px;
+
+            font-weight: 300;
+            font-size: 58px;
+            line-height: 72px;
+
+
+}
+
+.title_1 {
+    position: absolute;
+    text-align: left;
+    font-family: "Intro";
+
+            width: 542px;
+            height: 60px;
+            left: 10px;
+            top: 374px;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 32px;
+
+
+}
+
+.title_2{
+    position: absolute;
+    text-align: left;
+    font-family: "Intro";
+
+
+}
+.buy {
+    position: absolute;
+    bottom: 25px;
+    size: -1em;
+}
+.aside {
+    flex-grow: 1;
+}
+.fon {
+    position: absolute;
+    right: 20px;
+}
+.nav
+{
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+   
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.nav li {
+    display:inline;
+ }
+.nav a {
+    text-decoration:none;
+    color: #5222D0;}
+
+.menu{
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+.menu a {
+    text-decoration:none;
+    color: black;}
+
+    .menu li {
+        display:inline;
+           }
+
+
